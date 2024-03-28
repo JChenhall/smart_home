@@ -67,7 +67,8 @@ void pageListener() {
                       child: Column(
                         children: [
                           PageIndicators(
-                            selectedRoomNotifier: roomSelectorNotifier
+                            selectedRoomNotifier: roomSelectorNotifier,
+                            pageNotifier: pageNotifier,
                             ),
                           SmHomeBottomNavigationBar(
                             selectedRoomNotifier: roomSelectorNotifier,
